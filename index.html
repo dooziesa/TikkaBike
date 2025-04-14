@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="TikkaBike" content="width=device-width, initial-scale=1.0">
+  <title>TikkaBike Menu</title>
+  <!-- ربط ملف CSS الخارجي -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- ملاحظة: يمكن هنا تضمين رابط الخط المستخدم في التصميم عبر Google Fonts أو @font-face -->
+</head>
+<body>
+  <!-- الهيدر: يحتوي على قائمة الروابط للتنقل بين الأقسام -->
+  <header class="main-header">
+    <nav>
+      <!-- روابط بقوائم تنقل تؤدي إلى الأقسام المختلفة عبر المعرّفات (IDs) -->
+      <a href="#sandwiches">ساندويتشات</a>
+      <a href="#dishes">أطباق</a>
+      <a href="#snacks">سناكات</a>
+      <a href="#sauces">صوصات</a>
+      <a href="#drinks">مشروبات</a>
+    </nav>
+  </header>
+
+  <!-- قسم الساندويتشات -->
+  <section id="sandwiches">
+    <h2>ساندويتشات</h2>
+    <!-- بطاقة صنف -->
+    <div class="card">
+      <img src="images/sandwich_tikka.png" alt="صورة سندويتش تكا بايك">
+      <h3>سندويتش تكا بايك</h3>
+      <p class="desc">دجاج مشوي بتتبيلة المسالا الهندية الغنية ملفوف في خبز طري مع لمسة من الصوص الكريمي.</p>
+      <p class="price">9.5 <span>ريال</span></p>
+    </div>
+    <!-- بطاقة صنف أخرى كمثال -->
+    <div class="card">
+      <img src="images/sandwich_krahi.png" alt="صورة سندويتش كراهي">
+      <h3>سندويتش كراهي</h3>
+      <p class="desc">قطع دجاج متبلة ببهارات الكراهي الخاصة ومشوية لتعطيك طعمًا غنيًا بالدخان والنكهة الهندية الأصيلة.</p>
+      <p class="price">10 <span>ريال</span></p>
+    </div>
+    <!-- يمكن تكرار المزيد من البطاقات حسب الحاجة لبقية أصناف الساندويتشات -->
+  </section>
+
+  <!-- قسم الأطباق -->
+  <section id="dishes">
+    <h2>أطباق</h2>
+    <div class="card">
+      <img src="images/dish_tikka_rice.png" alt="صورة تكا رايز">
+      <h3>تكا رايز</h3>
+      <p class="desc">أرز بسمتي متبل ببهارات خاصة مع قطع الدجاج الطرية المغمورة بصلصة غنية لوجبة لا تُنسى.</p>
+      <p class="price">19 <span>ريال</span></p>
+    </div>
+    <div class="card">
+      <img src="images/dish_krahi_rice.png" alt="صورة كراهي رايز">
+      <h3>كراهي رايز</h3>
+      <p class="desc">أرز بسمتي فاخر مع دجاج متبل بتوابل الكراهي الخاصة، مطبوخ في صوص غني لوجبة هندية أصيلة.</p>
+      <p class="price">20 <span>ريال</span></p>
+    </div>
+    <!-- أضف بقية الأطباق بنفس القالب -->
+  </section>
+
+  <!-- قسم السناكات -->
+  <section id="snacks">
+    <h2>سناكات</h2>
+    <div class="card">
+      <img src="images/snack_wings.png" alt="صورة وجبة وينجز لولي بوب">
+      <h3>ونجز - لولي بوب</h3>
+      <p class="desc">أجنحة دجاج مغطاة بصوص حار ولذيذ مع رشة سمسم محمص لقرمشة مميزة في كل قضمة.</p>
+      <p class="price">10 <span>ريال</span></p>
+    </div>
+    <div class="card">
+      <img src="images/snack_fries.png" alt="صورة تكا فرايز">
+      <h3>تكا فرايز</h3>
+      <p class="desc">بطاطس مقلية مقرمشة مغطاة بقطع دجاج تكا المتبلة وصوص جبني لذيذ يضيف نكهة غنية.</p>
+      <p class="price">14 <span>ريال</span></p>
+    </div>
+    <!-- أضف المزيد من السناكات حسب القائمة -->
+  </section>
+
+  <!-- قسم الصوصات -->
+  <section id="sauces">
+    <h2>صوصات</h2>
+    <div class="card">
+      <img src="images/sauce_masala.png" alt="صورة صوص المسالا">
+      <h3>صوص مسالا</h3>
+      <p class="desc">صوص المسالا الحار لإضافة نكهة أصلية للأطباق.</p>
+      <p class="price">2 <span>ريال</span></p>
+    </div>
+    <div class="card">
+      <img src="images/sauce_spicy.png" alt="صورة صوص سبايسي">
+      <h3>صوص سبايسي</h3>
+      <p class="desc">صوص حار غني بالنكهة لإضافة حرارة لذيذة.</p>
+      <p class="price">2 <span>ريال</span></p>
+    </div>
+    <!-- يمكن إضافة صوصات أخرى إن وجدت -->
+  </section>
+
+  <!-- قسم المشروبات -->
+  <section id="drinks">
+    <h2>مشروبات</h2>
+    <div class="card">
+      <img src="images/drink_pepsi.png" alt="صورة بيبسي">
+      <h3>بيبسي</h3>
+      <p class="desc">مشروب غازي بارد ومنعش.</p>
+      <p class="price">4 <span>ريال</span></p>
+    </div>
+    <div class="card">
+      <img src="images/drink_water.png" alt="صورة ماء">
+      <h3>ماء</h3>
+      <p class="desc">مياه معدنية باردة.</p>
+      <p class="price">1 <span>ريال</span></p>
+    </div>
+    <!-- أضف مشروبات أخرى حسب القائمة (مثل مشروبات غازية مختلفة) -->
+  </section>
+
+  <!-- يمكن إضافة سكريبت JavaScript قبل إغلاق وسم body إذا احتجنا وظائف إضافية -->
+</body>
+</html>
