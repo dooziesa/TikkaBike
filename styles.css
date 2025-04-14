@@ -1,0 +1,17 @@
+
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  direction: rtl;
+  text-align: center;
+}
+.main-header {
+  background-color: #ff6600;
+  padding: 10px;
+}
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
